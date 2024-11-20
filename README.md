@@ -4,9 +4,10 @@ Fighting Till Extinction
 
 ### Group Members
 
-- Ty Streets
-- {Member 2 Name}
-- {Member 3 Name}
+- Evan Deal
+- Ivy Ditzenberger
+- Andrea Godsey
+- Mychal Wood
 
 ### Web App Link
 
