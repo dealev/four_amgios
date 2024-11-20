@@ -15,8 +15,8 @@ https://something.vercel.app
 
 ### Category & Topic
 
-- **Category:** Food Chain / Ecosystem
-- **Topic:** Endangered Animals
+- **Category:** Culture and Traditions / Education
+- **Topic:** Chinese New Years Zodiac's
 
 ### Project Summary
 
