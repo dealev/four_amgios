@@ -1,6 +1,6 @@
-### Group Title
+### The Zodiac Wheel Game
 
-Fighting Till Extinction
+Spin the Wheel and Learn More about the Chinese Zodiac Animals
 
 ### Group Members
 
@@ -26,22 +26,22 @@ This project will showcase multiple endangered animals and force players to make
 
 This section will break down the ciruit system(s) needed, server data, api endpoints, and data visualization of the project, specifying which team members are responsible for each section:
 
-1. **Animal Section Page**
+1. **Research/Front-End Design**
 
-   - Description: Where players can select the animal they want to battle with. When an animal is about to be selected, the player is shown information relating to the animal's native region and recent population count.
-   - Responsible: {Team Member Name}
+   - Description: Conducts research on the zodiac signs and creates/plans the design of the wheel as well as other front-end elements of the site.
+   - Responsible: {Andrea Godsey}
 
-2. **Player Animal Controller Movements**
+2. **Coding the Wheel to Land on an Animal**
 
    - Description: Where users can view and edit their profile information.
    - Responsible: {Team Member Name}
 
-3. **Contact Page**
+3. **Coding the Pop-Up Information when a person lands on an Animal**
 
    - Description: Where users can send contact messages to the site admins.
    - Responsible: {Team Member Name}
 
-4. **{Additional Pages}**
+4. **Adding neccessary information to each Pop-Up**
    - {Repeat this pattern for other pages of the app}
 
 ### Sources Cited
