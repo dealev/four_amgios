@@ -38,7 +38,7 @@ This section will break down the ciruit system(s) needed, server data, api endpo
 
 3. **Coding the Pop-Up Information when a person lands on an Animal**
 
-   - Description: Coding alerts/pages for zodiac information for each animal on the wheel. With an additional quiz feature that uses a slider to make a selection betweeon two options. When an option has been decieded and confirmed with another button, there will be two lights (red and green) that will output depending on if you chose the right answer. 
+   - Description: Coding alerts/pages for zodiac information for each animal on the wheel. With an additional quiz feature that uses a slider to make a selection between two options. When an option has been decieded and confirmed with another button, there will be two lights (red and green) that will output depending on if you chose the right answer. 
    - Responsible: {Ivy Ditzenberger}
 
 4. **Adding neccessary information to each Pop-Up**
