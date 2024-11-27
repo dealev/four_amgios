@@ -20,7 +20,7 @@ https://four-amgios.vercel.app/
 
 ### Project Summary
 
-This project will showcase a digital wheel that displays Chinese New Years Zodiac animals. The user can spin the wheel by pressing buttons on the breadboard. After the wheel spins, it will stop on a certain animal, causing an alert to pop up, allowing the user to read about said animal.
+This project will showcase a digital wheel that displays Chinese New Years Zodiac animals. The user can spin the wheel by the number of times they press the button. After the wheel spins, it will stop on a certain animal, causing an alert to pop up, allowing the user to read about said animal. After the alert, there will be a quiz section that allows for two choices, depending on what you pick, there will be either a red or green light that goes off. This wil indicate whether you got the answer right or wrong. 
 
 ### IoT Structure and Responsibilities
 
@@ -33,12 +33,12 @@ This section will break down the ciruit system(s) needed, server data, api endpo
 
 2. **Coding the Wheel to Land on an Animal**
 
-   - Description: Where users can view and edit their profile information.
-   - Responsible: {Team Member Name}
+   - Description: Responsible for coding the wheel to spin from the input button. The amount of times you click on the input button within 5 seconds will determine your spin rate of the wheel. When the wheel has landed on a specific zodiac sign inside the wheel, an output device will trigger that makes a sound to confirm you landing on one.  
+   - Responsible: {Evan Deal}
 
 3. **Coding the Pop-Up Information when a person lands on an Animal**
 
-   - Description: Coding alerts/pages for zodiac information for each animal on the wheel
+   - Description: Coding alerts/pages for zodiac information for each animal on the wheel. With an additional quiz feature that uses a slider to make a selection betweeon two options. When an option has been decieded and confirmed with another button, there will be two lights (red and green) that will output depending on if you chose the right answer. 
    - Responsible: {Ivy Ditzenberger}
 
 4. **Adding neccessary information to each Pop-Up**
