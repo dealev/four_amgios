@@ -48,6 +48,7 @@ This section will break down the ciruit system(s) needed, server data, api endpo
 
 This section will list any places where you pulled information from to generate content for your site. If an LMS was used then put you prompt below the link.
 
-- [Google Gemini (AI tool)](https://www.google.com/search?q=how+do+pandas+fight&sca_esv=a07f0383584960a3&rlz=1C5GCEM_enUS1122US1122&sxsrf=ADLYWIJRPyuYe-vUBgqgySAy_w1Cysrx4A%3A1731531506874&ei=8hI1Z7OFNailptQPy5WrkAE&ved=0ahUKEwizxonDmdqJAxWokokEHcvKChIQ4dUDCA8&uact=5&oq=how+do+pandas+fight&gs_lp=Egxnd3Mtd2l6LXNlcnAiE2hvdyBkbyBwYW5kYXMgZmlnaHQyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSJIuUKEOWMUtcAV4AZABAJgBfKAB8wyqAQQxNS41uAEDyAEA-AEBmAIZoALRDagCFMICChAAGLADGNYEGEfCAgoQIxiABBgnGIoFwgITEC4YgAQYxwEYJxiKBRiOBRivAcICCxAAGIAEGJECGIoFwgIKEC4YgAQYQxiKBcICEBAAGIAEGLEDGEMYgwEYigXCAg4QLhiABBixAxjRAxjHAcICCxAAGIAEGLEDGIMBwgIEECMYJ8ICChAAGIAEGEMYigXCAgsQLhiABBjRAxjHAcICCxAuGIAEGLEDGIMBwgIHECMYJxjqAsICFBAAGIAEGJECGLQCGIoFGOoC2AEBwgIUEAAYgAQY4wQYtAIY6QQY6gLYAQHCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgIIEAAYFhgKGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEmAMIiAYBkAYHugYGCAEQARgBkgcEMjAuNaAH_7EB&sclient=gws-wiz-serp)
-  "How do polar bears fight"
-- [Text for Source](linkForSource)
+- [History of the Chinese Zodiac](https://lammuseum.wfu.edu/education/teachers/chinese-new-year/the-chinese-zodiac/)
+- [Words to Describe and Years of Each Chinese Zodiac Animal](https://www.english1.com/blog/living-in-china/everything-you-wanted-to-know-about-chinese-zodiac/#)
+- [Synonyms for Personality Traits](https://www.english1.com/blog/living-in-china/everything-you-wanted-to-know-about-chinese-zodiac/#)
+  
