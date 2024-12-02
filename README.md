@@ -51,4 +51,5 @@ This section will list any places where you pulled information from to generate 
 - [History of the Chinese Zodiac](https://lammuseum.wfu.edu/education/teachers/chinese-new-year/the-chinese-zodiac/)
 - [Words to Describe and Years of Each Chinese Zodiac Animal](https://www.english1.com/blog/living-in-china/everything-you-wanted-to-know-about-chinese-zodiac/#)
 - [Synonyms for Personality Traits](https://www.english1.com/blog/living-in-china/everything-you-wanted-to-know-about-chinese-zodiac/#)
+- [Research Document Andrea Made with Information from above links](https://docs.google.com/document/d/1R6Dim5d9vanew-tZ74cauzoT3tSx4R6n-YRl8Jumq8s/edit?tab=t.0)
   
