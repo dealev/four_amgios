@@ -20,7 +20,7 @@ https://four-amgios.vercel.app/
 
 ### Project Summary
 
-This project will showcase a digital wheel that displays Chinese New Years Zodiac animals. The user can spin the wheel by the amount of pressure they apply to the pressure plate. After the wheel spins, it will stop on a certain animal, causing an alert to pop up, allowing the user to read about said animal. After the alert, there will be a quiz section that allows for two choices (slider input), depending on what you pick, there will be either a red or green light that goes off. This wil indicate whether you got the answer right or wrong. At the end, there will be two buttons to press that let you redo the quiz or start a new spin.
+This project will showcase a digital wheel that displays Chinese New Years Zodiac animals. The user can spin the wheel by the amount of pressure they apply to the pressure plate. When the wheel is spinning it will flash a blue and white ligth to add to the game. After the wheel spins, it will stop on a certain animal, causing an alert to pop up, allowing the user to read about said animal. After the alert, there will be a quiz section that allows for two choices (slider input), depending on what you pick, there will be either a red or green light that goes off. This wil indicate whether you got the answer right or wrong. At the end, there will be two buttons to press that let you redo the quiz or start a new spin.
 
 ### IoT Structure and Responsibilities
 
@@ -33,7 +33,7 @@ This section will break down the ciruit system(s) needed, server data, api endpo
 
 2. **Coding the Wheel to Land on an Animal**
 
-   - Description: Responsible for coding the wheel to spin from the [ressue sensor. The amount of pressure applied to the wheel will create the rate at which it spins. When the wheel has landed on a specific zodiac sign inside the wheel, an output device will trigger that makes a sound to confirm you landing on one. I will also be responsible for the end result with the two input buttons that determine if you want to retake the quiz or start a new spin.
+   - Description: Responsible for coding the wheel to spin from the pressue sensor. The amount of pressure applied to the wheel will create the rate at which it spins. Dueing the spin, there will be a blue and white light flashing to add to the game. When the wheel has landed on a specific zodiac sign inside the wheel, there will be a section that pops up with information and a quiz later on. I will also be responsible for the end result with the two input buttons that determine if you want to retake the quiz or start a new spin.
    - Responsible: {Evan Deal}
 
 3. **Coding the Pop-Up Information when a person lands on an Animal**
