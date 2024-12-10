@@ -14,88 +14,100 @@ const sections = [
     question: "Rat question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
+    color: "#88cfef", //blue and black
   },
   {
     label: "Ox",
     question: "Ox question (false)",
     answers: ["True", "False"],
     correctAnswer: 1,
+    color: "#fbfc94", // yellow
   },
   {
     label: "Tiger",
     question: "Tiger question (false)",
     answers: ["True", "False"],
     correctAnswer: 1,
+    color: "#f85e54", //red and green
   },
   {
     label: "Rabbit",
     question: "Rabbit question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
+    color: "#b4ddb1", //green
   },
   {
     label: "Dragon",
     question: "dragon  question (false)",
     answers: ["True", "False"],
     correctAnswer: 1,
+    color: "#ffe960", //yellow
   },
   {
     label: "Snake",
     question: "Snake question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
+    color: "#c2b0e0", //purple
   },
   {
     label: "Horse",
     question: "Horse question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
+    color: "#aecad5", //blue
   },
   {
     label: "Goat",
     question: "Goat question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
+    color: "#adeab1", //blue and green
   },
   {
     label: "Monkey",
     question: "Monkey question (false)",
     answers: ["True", "False"],
     correctAnswer: 1,
+    color: "#c4cbd1", //grey and purple
   },
   {
     label: "Rooster",
     question: "Rooster question (false)",
     answers: ["True", "False"],
     correctAnswer: 1,
+    color: "#9cc9e0", //blue and white
   },
   {
     label: "Dog",
     question: "Dog question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
+    color: "#ffffff", //black and white
   },
   {
     label: "Pig",
     question: "Pig question (false)",
     answers: ["True", "False"],
     correctAnswer: 1,
+    color: "#c4a384", //brown
   },
 ];
 
 const sectionMessages = {
-  Rat: "Rat",
-  Ox: "Ox",
-  Tiger: "Tiger",
-  Rabbit: "Rabbit",
-  Dragon: "Dragon",
-  Snake: "Snake",
-  Horse: "Horse",
-  Goat: "Goat",
-  Monkey: "Monkey",
-  Rooster: "Rooster",
-  Dog: "Dog",
-  Pig: "Pig",
+  Rat: "rat",
+  Ox: "ox",
+  Tiger: "tiger",
+  Rabbit: "rabbit",
+  Dragon: "dragon",
+  Snake: "snake",
+  Horse: "horse",
+  Goat: "goat",
+  Monkey: "monkey",
+  Rooster: "rooster",
+  Dog: "dog",
+  Pig: "pig",
 };
 
 function drawWheel() {
@@ -110,9 +122,9 @@ function drawWheel() {
       (i * sectionAngle * Math.PI) / 180,
       ((i + 1) * sectionAngle * Math.PI) / 180
     );
-    ctx.fillStyle = `hsl(${i * 30}, 100%, 50%)`;
+    ctx.fillStyle = sections[i].color;
     ctx.fill();
-    ctx.font = "24px Arial";
+    ctx.font = "13px Arial";
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
     ctx.fillStyle = "black";
@@ -128,19 +140,42 @@ function drawWheel() {
   }
 }
 
+let spinAngle = 0;
+let spinSpeed = 10;
+let isSpinning = false;
+
 function spinWheel() {
-  const spinAngle = Math.random() * 360;
-  const section = Math.floor(spinAngle / sectionAngle);
-  drawWheel();
-  ctx.save();
-  ctx.translate(wheelWidth / 2, wheelHeight / 2);
-  ctx.rotate((spinAngle * Math.PI) / 180);
-  ctx.translate(-wheelWidth / 2, -wheelHeight / 2);
-  drawWheel();
-  ctx.restore();
-  setTimeout(() => {
-    showQuizAlert(section);
-  }, 2000);
+  if (isSpinning) return;
+  isSpinning = true;
+  spinAngle = Math.random() * 360;
+  spinSpeed = 10;
+
+  function animate() {
+    drawWheel();
+    ctx.save();
+    ctx.translate(wheelWidth / 2, wheelHeight / 2);
+    ctx.rotate((spinAngle * Math.PI) / 180);
+    ctx.translate(-wheelWidth / 2, -wheelHeight / 2);
+    drawWheel();
+    ctx.restore();
+
+    spinAngle += spinSpeed;
+    spinSpeed -= 0.1;
+
+    if (spinSpeed > 0) {
+      requestAnimationFrame(animate);
+    } else {
+      isSpinning = false;
+      const section = Math.floor(
+        ((spinAngle % 360) / sectionAngle) % numSections
+      );
+      setTimeout(() => {
+        showQuizAlert(section);
+      }, 2000);
+    }
+  }
+
+  animate();
 }
 
 function showQuizAlert(section) {
@@ -149,11 +184,11 @@ function showQuizAlert(section) {
   const alert = document.createElement("div");
   alert.className = "alert";
 
-  const message = sectionMessages[sections[section].label] || "quiz";
+  const message = sectionMessages[sections[section].label] || "section";
 
-  alert.innerHTML = `   
-   <h2>You landed on ${sections[section].label}! ${message}</h2>   
-   <button id="go-to-quiz-button">Go to Quiz</button>   
+  alert.innerHTML = `    
+  <h2>${message}</h2>    
+  <button id="go-to-quiz-button">Go to Quiz</button>    
   `;
 
   alertContainer.appendChild(alert);
@@ -167,10 +202,10 @@ function showQuestionAlert(section) {
   alertContainer.innerHTML = "";
   const alert = document.createElement("div");
   alert.className = "alert";
-  alert.innerHTML = `   
-    <h2>${sections[section].question}</h2>   
-    <button id="answer-0-button">${sections[section].answers[0]}</button>   
-    <button id="answer-1-button">${sections[section].answers[1]}</button>   
+  alert.innerHTML = `    
+   <h2>${sections[section].question}</h2>    
+   <button id="answer-0-button">${sections[section].answers[0]}</button>    
+   <button id="answer-1-button">${sections[section].answers[1]}</button>    
   `;
   alertContainer.appendChild(alert);
   document.getElementById("answer-0-button").addEventListener("click", () => {
@@ -187,15 +222,15 @@ function showResultAlert(section, answer) {
   const alert = document.createElement("div");
   alert.className = "alert";
   if (answer === sections[section].correctAnswer) {
-    alert.innerHTML = `   
-      <h2>Correct</h2>   
-      <button id="spin-again-button">Spin Again</button>   
-    `;
+    alert.innerHTML = `    
+    <h2>Correct!</h2>    
+    <button id="spin-again-button">Spin Again</button>    
+   `;
   } else {
-    alert.innerHTML = `   
-      <h2>Wrong, try again?</h2>   
-      <button id="try-again-button">Try Again</button>   
-    `;
+    alert.innerHTML = `    
+    <h2>Wrong, try again</h2>    
+    <button id="try-again-button">Try Again</button>    
+   `;
   }
   alertContainer.appendChild(alert);
   if (alert.innerHTML.includes("Correct")) {
@@ -203,6 +238,7 @@ function showResultAlert(section, answer) {
       .getElementById("spin-again-button")
       .addEventListener("click", () => {
         alertContainer.style.display = "none";
+        spinWheel();
       });
   } else {
     document
