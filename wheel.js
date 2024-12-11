@@ -11,84 +11,89 @@ const sectionAngle = 360 / numSections;
 const sections = [
   {
     label: "Rat",
-    question: "Rat question (true)",
+    question:
+      "The rat tricked the ox to become the first month on the calender",
     answers: ["True", "False"],
     correctAnswer: 0,
     color: "#f85e54", //blue and black
   },
   {
     label: "Ox",
-    question: "Ox question (false)",
+    question: "One of the traits of the ox is being responsible",
     answers: ["True", "False"],
     correctAnswer: 1,
     color: "#ffe960", // yellow
   },
   {
     label: "Tiger",
-    question: "Tiger question (false)",
+    question: "1928 is the year of the tiger",
     answers: ["True", "False"],
     correctAnswer: 1,
     color: "#f85e54", //red and green
   },
   {
     label: "Rabbit",
-    question: "Rabbit question (true)",
+    question:
+      "someone born in the year of the rabbit is considered to be compassionate",
     answers: ["True", "False"],
     correctAnswer: 0,
     color: "#ffe960", //green
   },
   {
     label: "Dragon",
-    question: "dragon  question (false)",
+    question: "The dragon is the 1st month because he flew over the river",
     answers: ["True", "False"],
     correctAnswer: 1,
     color: "#f85e54", //yellow
   },
   {
     label: "Snake",
-    question: "Snake question (true)",
+    question: "Next year will be the year of the snake",
     answers: ["True", "False"],
     correctAnswer: 0,
     color: "#ffe960", //purple
   },
   {
     label: "Horse",
-    question: "Horse question (true)",
+    question: "The horse was almost 6th place",
     answers: ["True", "False"],
     correctAnswer: 0,
     color: "#f85e54", //blue
   },
   {
     label: "Goat",
-    question: "Goat question (true)",
+    question: "The Jade Emperor gave the goat its month",
     answers: ["True", "False"],
     correctAnswer: 0,
     color: "#ffe960", //blue and green
   },
   {
     label: "Monkey",
-    question: "Monkey question (false)",
+    question:
+      "Being observant is a trait of being born in the year of the monkey",
     answers: ["True", "False"],
     correctAnswer: 1,
     color: "#f85e54", //grey and purple
   },
   {
     label: "Rooster",
-    question: "Rooster question (false)",
+    question:
+      "The earliest year that is the year of the rooster that was stated is 1933",
     answers: ["True", "False"],
     correctAnswer: 1,
     color: "#ffe960", //blue and white
   },
   {
     label: "Dog",
-    question: "Dog question (true)",
+    question:
+      "being loving and honest are traits of being born in the year of the dog",
     answers: ["True", "False"],
     correctAnswer: 0,
     color: "#f85e54", //black and white
   },
   {
     label: "Pig",
-    question: "Pig question (false)",
+    question: "The pig was last because he could not swim over the river",
     answers: ["True", "False"],
     correctAnswer: 1,
     color: "#ffe960", //brown
