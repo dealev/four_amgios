@@ -80,7 +80,7 @@ const sections = [
     question:
       "The earliest year that is the year of the rooster that was stated is 1933",
     answers: ["True", "False"],
-    correctAnswer: 1,
+    correctAnswer: 0,
     color: "#ffe960", //blue and white
   },
   {
@@ -192,6 +192,7 @@ function spinWheel() {
 
 function showQuizAlert(section) {
   const alertContainer = document.getElementById("alert-container");
+  alertContainer.innerHTML = "";
   alertContainer.style.display = "flex";
   const alert = document.createElement("div");
   alert.className = "alert";
