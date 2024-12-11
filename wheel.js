@@ -96,18 +96,25 @@ const sections = [
 ];
 
 const sectionMessages = {
-  Rat: "rat",
-  Ox: "ox",
-  Tiger: "tiger",
-  Rabbit: "rabbit",
-  Dragon: "dragon",
-  Snake: "snake",
-  Horse: "horse",
-  Goat: "goat",
-  Monkey: "monkey",
-  Rooster: "rooster",
-  Dog: "dog",
-  Pig: "pig",
+  Rat: "The rat! the years 1924, 1936, 1948, 1960, 1972, 1984, 1996, 2008, and 2020 are considered to be the year of the rat. The rat is the 1st animal on the calender because it tricked the ox into carrying it across the river. It jumped off last second, making it first. People born on the year of the rat are said to be kind, quick-witted, versatile, and resourceful.",
+  Ox: "The ox! the years 1925, 1937, 1949, 1961, 1973, 1985, 1997, 2009, and 2021 are considered to be the year of the ox. The ox is the 2nd animal on the calender because the rat tricked it into carrying it across the river. The rat jumped off and finished first, leaving the ox second. People born on the year of the ox are said to be diligent, dependable, strong, and determined.",
+  Tiger:
+    "The tiger! the years 1926, 1938, 1950, 1962, 1974, 1986, 1998, 2010, and 2022 are considered to be the year of the tiger. The tiger is the 3rd animal on the calender because the strong current on the river set it off course. People born on the year of the tiger are said to be brave, confident, and competitive.",
+  Rabbit:
+    "The rabbit! the years 1927, 1939, 1951, 1963, 1975, 1987, 1999, 2011, and 2023 are considered to be the year of the rabbit. The rabbit is the 4th animal on the calender because it was tired of the race and instead of swimming, it hopped across stones and floated on a log to the other side. People born on the year of the rabbit are said to be quiet, elegant, compassionate, and responsible.",
+  Dragon:
+    "The dragon! the years 1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012, and 2024 are considered to be the year of the dragon. The dragon is the 5th animal on the calender because it stopped along the way to help some of the animals. People born on the year of the dragon are said to be  confident, intelligent, and enthusiastic.",
+  Snake:
+    "The snake! the years 1929, 1941, 1953, 1965, 1977, 1989, 2001, 2013, and 2025 are considered to be the year of the snake. The snake is the 6th animal on the calender because it slithered under horse, scaring it, letting snake cross the finish line at 6th place. People born on the year of the snake are said to be enigmatic, clever, and wise.",
+  Horse:
+    "The horse! the years 1930, 1942, 1954, 1966, 1978, 1990, 2002, 2014, and 2026 are considered to be the year of the horse. The horse is the 7th animal on the calender because before it could finish is 6th, the snake slithered under it's hooves, scaring and delaying it from crossing the finish line. People born on the year of the horse are said to be animated, active, and hyper.",
+  Goat: "The goat! the years 1931, 1943, 1955, 1967, 1979, 1991, 2003, 2015, and 2027 are considered to be the year of the goat. The goat is the 8th animal in line because the Jade emperor declared it so after it created a raft to float across the river with monkey and rooster. People born on the year of the goat are said to be calm, gentle, and sympathetic.",
+  Monkey:
+    "The monkey! the years 1932, 1944, 1956, 1968, 1980, 1992, 2004, 2016, and 2028 are considered to be the year of the monkey. The monkey is the 9th animal on the calender because the Jade emperor declared it so after it created a raft to float across the river with goat and rooster. People born on the year of the monkey are said to be sharp, cheerful, and curious.",
+  Rooster:
+    "The rooster! the years 1933, 1945, 1957, 1969, 1981, 1993, 2005, 2017, and 2029 are considered to be the year of the rooster. The rooster is the 10th animal on the calender because the Jade emperor declared it so after it created a raft to float across the river with goat and monkey. People born on the year of the rooster are said to be observant, hardworking, and courageous.",
+  Dog: "The dog! the years 1934, 1946, 1958, 1970, 1982, 1994, 2006, 2018, and 2030 are considered to be the year of the dog. The dog is the 11th animal on the calender because the river was so refreshing, he decided to take a bath. People born on the year of the dog are said to be loving, honest, and prudent.",
+  Pig: "The pig! the years 1935, 1947, 1959, 1971, 1983, 1995, 2007, 2019, and 2031 are considered to be the year of the pig. The pig is the 12th animal on the calender because he stopped to eat and then took a nap afterwards. People born on the year of the pig are said to be charitable, generous, and attentive.",
 };
 
 function drawWheel() {
