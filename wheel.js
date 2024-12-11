@@ -14,14 +14,14 @@ const sections = [
     question: "Rat question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
-    color: "#88cfef", //blue and black
+    color: "#f85e54", //blue and black
   },
   {
     label: "Ox",
     question: "Ox question (false)",
     answers: ["True", "False"],
     correctAnswer: 1,
-    color: "#fbfc94", // yellow
+    color: "#ffe960", // yellow
   },
   {
     label: "Tiger",
@@ -35,63 +35,63 @@ const sections = [
     question: "Rabbit question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
-    color: "#b4ddb1", //green
+    color: "#ffe960", //green
   },
   {
     label: "Dragon",
     question: "dragon  question (false)",
     answers: ["True", "False"],
     correctAnswer: 1,
-    color: "#ffe960", //yellow
+    color: "#f85e54", //yellow
   },
   {
     label: "Snake",
     question: "Snake question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
-    color: "#c2b0e0", //purple
+    color: "#ffe960", //purple
   },
   {
     label: "Horse",
     question: "Horse question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
-    color: "#aecad5", //blue
+    color: "#f85e54", //blue
   },
   {
     label: "Goat",
     question: "Goat question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
-    color: "#adeab1", //blue and green
+    color: "#ffe960", //blue and green
   },
   {
     label: "Monkey",
     question: "Monkey question (false)",
     answers: ["True", "False"],
     correctAnswer: 1,
-    color: "#c4cbd1", //grey and purple
+    color: "#f85e54", //grey and purple
   },
   {
     label: "Rooster",
     question: "Rooster question (false)",
     answers: ["True", "False"],
     correctAnswer: 1,
-    color: "#9cc9e0", //blue and white
+    color: "#ffe960", //blue and white
   },
   {
     label: "Dog",
     question: "Dog question (true)",
     answers: ["True", "False"],
     correctAnswer: 0,
-    color: "#ffffff", //black and white
+    color: "#f85e54", //black and white
   },
   {
     label: "Pig",
     question: "Pig question (false)",
     answers: ["True", "False"],
     correctAnswer: 1,
-    color: "#c4a384", //brown
+    color: "#ffe960", //brown
   },
 ];
 
